@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessar Discord</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-link"></i> Link de Acesso</h1>
+            <p class="subtitle">Clique no botão abaixo para entrar no servidor do Discord</p>
+        </header>
+
+        <main>
+            <div class="button-container">
+                <div class="button-label">Link</div>
+                <button id="discordButton" class="discord-btn">
+                    <i class="fab fa-discord"></i>
+                    <span class="btn-text">Acessar link</span>
+                    <span class="btn-arrow">→</span>
+                </button>
+                <p class="instruction">Você será redirecionado para: <span class="link-preview">https://discord.gg/2gVWhgStQa</span></p>
+            </div>
+
+            <div class="info-box">
+                <h3><i class="fas fa-info-circle"></i> Informações</h3>
+                <p>Este botão irá redirecionar você para um servidor do Discord. Certifique-se de que você tem uma conta no Discord para acessar.</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Site criado para acesso rápido ao Discord | <span id="currentYear"></span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
